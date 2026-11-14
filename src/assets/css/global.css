@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #27D9A7;
+    --color-primary-light: #F2FBF8;
+    --color-navy-900: #0B192C;
+    --color-navy-800: #16263B;
+    --color-surface-light: #FFFFFF;
+    --color-surface-card: #F8FAFC;
+    --color-text-muted: #64748B;
+    --color-text-light-muted: #94A3B8;
+  }
+}

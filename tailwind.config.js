@@ -10,9 +10,15 @@ module.exports = {
   presets: [require("nativewind/preset")],
   theme: {
     extend: {
+      fontFamily: {
+        display: ["Poppins_600SemiBold"],
+        "display-bold": ["Poppins_700Bold"],
+        "display-regular": ["Poppins_400Regular"],
+      },
       colors: {
         primary: {
           DEFAULT: "#27D9A7",
+          deep: "#0B9C83",
           light: "#F2FBF8",
         },
         navy: {

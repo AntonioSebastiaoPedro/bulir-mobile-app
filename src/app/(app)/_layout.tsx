@@ -23,7 +23,7 @@ export default function AppLayout() {
         sceneStyle: { backgroundColor: '#F8FAFC' },
       }}
     >
-      <Tabs.Screen name="index" options={{ title: 'Início', tabBarIcon: icon(LayoutDashboard) }} />
+      <Tabs.Screen name="home" options={{ title: 'Início', tabBarIcon: icon(LayoutDashboard) }} />
       <Tabs.Screen
         name="services"
         options={{ title: user?.role === 'PROVIDER' ? 'Meus serviços' : 'Serviços', tabBarIcon: icon(Briefcase) }}

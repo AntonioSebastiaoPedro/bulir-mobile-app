@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  // O app só tem tema claro; "class" evita que o NativeWind tente alternar o esquema na web.
+  darkMode: "class",
   // NOTE: Inclui todos os diretórios com componentes e telas do projeto
   content: [
     "./App.{js,jsx,ts,tsx}",
